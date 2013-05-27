@@ -1,0 +1,155 @@
+
+
+#sendweibo_div {
+    z-index: 1000000;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -360px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    visibility: visible;
+    color: #4B4B4B !important;
+    font-family: "Microsoft Yahei" "微软雅黑";
+}
+
+#sendweibo_div_bottom {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    height: 14px;
+    background: #c6c6c6;
+    z-index: 0;
+}
+
+#sendweibo_wrap {
+    background: #ececec;
+    height: 160px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #fdfdfd;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sendweibo_textarea_container {
+    position: relative;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+#sendweibo_textarea {
+    resize: none;
+    margin-left: 140px;
+    background-color: #fff;
+    width: 470px;
+    height: 110px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    font-size: 14px;
+    font-family: Tahoma, 宋体;
+    word-wrap: break-word;
+    line-height: 18px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    outline: none;
+}
+
+#sendweibo_succpic {
+    display: none;
+    width: 109px;
+    height: 42px;
+    position: absolute;
+    top: 40px;
+    left: 310px;
+}
+
+#sendweibo_loading {
+    display: none;
+	top:0;
+	margin: 3px 0 0 141px;
+	position: absolute;
+	width: 469px;
+	height: 110px;
+	line-height: 125px;
+	text-align: center;
+	background-position: 160px 55px;
+	z-index: 1000000;
+	border-radius: 5px;
+	font-size:14px;
+}
+
+#sendweibo_filepic {
+	text-align:center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    color: #4B4B4B;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+#sendweibo_div .sendweibo_filepic_bknone{background:#fff}
+#sendweibo_speech {
+    border: 0px;
+    left: 492px;
+    position: absolute;
+    display: inline-block;
+    top: 138px;
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+}
+
+#sendweibo_sendbtn {
+    left: 521px;
+    position: absolute;
+    top: 135px;
+    display: inline-block;
+    width: 98px;
+    height: 31px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3e3e3), color-stop(100%,#cccccc));
+    background: -webkit-linear-gradient(top,  #e3e3e3 0%,#cccccc 100%);
+    text-shadow:1px 1px 1px #ccc,-1px -1px 1px #ccc;
+    box-shadow:1px 2px 0 #bdbdbd;
+    }
+    #sendweibo_sendbtn:hover{
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0bf39), color-stop(100%,#7ea422));
+        background: -webkit-linear-gradient(top,  #a0bf39 0%,#7ea422 100%);     
+    }
+    #sendweibo_sendbtn:active{
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0bf39), color-stop(100%,#7ea422));
+        background: -webkit-linear-gradient(top,  #a0bf39 0%,#7ea422 100%);     
+        box-shadow:none;
+        left:522px;
+        top:136px;;
+    }
+    /*#sendweibo_sendbtn:hover{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aecb48), color-stop(100%,#9abf40));
+    background: -webkit-linear-gradient(top,  #aecb48 0%,#9abf40 100%);
+    border-color:#bcd467
+    }*/
+    #sendweibo_trigger{
+		left: 626px; top: 63px; width: 34px; height: 15px; 
+		text-decoration: none; text-align: center; color: white; float: left; cursor: pointer; position: relative; 
+		display: none; background-position: 0px 0px; background-repeat: no-repeat no-repeat;}

@@ -1,0 +1,34 @@
+{
+    "compressorLibPath": "./buildtools/yuicompressor-2.4.6.jar",
+
+    "target-jsfile-1": {
+        "src": "src/test.js",
+        "target": "output/js/test.min.js",
+        "merge": true,
+        "compress": true
+    },
+
+    "target-cssfile-1": {
+        "src": "src/test.css",
+        "target": "output/css/test.min.css",
+        "merge": true,
+        "compress": true
+    },
+
+    "target-jsfile-2": {
+        "src": ["src/test.js","src/test1.js","src/test2.js"],
+        "merge": true,
+        "compress": true,
+        "target": "output/merge/allTest.js"
+    },
+
+    "target-folder-2": {
+        "src": "src/folder/",
+        "target": "output/folder/",
+        "merge": true,
+        "compress": true,
+        "targetJSFileName": "js.min.js",
+        "targetCSSFileName": "css.min.css"
+    }
+
+}
